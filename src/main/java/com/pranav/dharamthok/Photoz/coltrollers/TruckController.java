@@ -1,14 +1,12 @@
-package com.pranav.dharamthok.Photoz.web;
+package com.pranav.dharamthok.Photoz.coltrollers;
 
 import com.pranav.dharamthok.Photoz.model.Truck;
-import com.pranav.dharamthok.Photoz.repository.TruckRepository;
 //import com.pranav.dharamthok.Photoz.service.EmailService;
 import com.pranav.dharamthok.Photoz.service.EmailService;
 import com.pranav.dharamthok.Photoz.service.TruckService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.swing.text.html.Option;
 import java.util.List;
 import java.util.Optional;
 

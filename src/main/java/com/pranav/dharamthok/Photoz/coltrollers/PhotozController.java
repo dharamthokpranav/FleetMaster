@@ -1,4 +1,4 @@
-package com.pranav.dharamthok.Photoz.web;
+package com.pranav.dharamthok.Photoz.coltrollers;
 
 import com.pranav.dharamthok.Photoz.service.PhotosService;
 import com.pranav.dharamthok.Photoz.model.PhotoModel;
