@@ -1,4 +1,4 @@
-package com.pranav.dharamthok.Photoz.util;
+package com.pranav.dharamthok.Photoz.security;
 
 import com.pranav.dharamthok.Photoz.model.Roles;
 import com.pranav.dharamthok.Photoz.model.UserEntity;
@@ -13,10 +13,8 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 
