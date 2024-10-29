@@ -52,9 +52,13 @@ public class AuthController {
         Roles roles = roleRepository.findByName("USER").get();
         user.setRoles(Collections.singletonList(roles));
         userRepository.save(user);
-
+        System.out.println("These are the changes i want on seperate branch");
+        System.out.println("oops mistakenly pushed on dev");
+        System.out.println("again");
         return new ResponseEntity<>("User registeres successfully!", HttpStatus.OK);
+
     }
+
 
 }
 
